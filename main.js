@@ -7,7 +7,7 @@ function getPagamenti(){
     method: 'GET',
     success: function(data){
 
-      // console.log(data);
+      console.log(data);
 
       var payment = $('#paymentlist');
 
